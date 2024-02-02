@@ -1,0 +1,117 @@
+/* ----------------- Header ------------------ */
+.header {
+  /* border: 1px solid black; */
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+/* ------------------ main container -------------- */
+.main-container {
+  /* border: 1px solid salmon; */
+  display: flex;
+  position: relative;
+  margin-top: 59px;
+}
+
+/* ------------------ searchAndCategories ----------------- */
+.searchAndCategories {
+  /* border: 1px solid black; */
+  padding: 20px;
+}
+.search-box {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.search-box input {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.categories div {
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* ----------------- Products Container and Card Container -------------- */
+.products-container {
+  /* border: 1px solid red; */
+  width: 85%;
+  position: absolute;
+  right: 0;
+}
+.cards-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid black;
+  width: 285px;
+  height: 270px;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img-box {
+  width: 100%;
+  height: 150px;
+}
+.img-box img {
+  width: 100%;
+  height: 100%;
+}
+
+/* --------------- Sidebar ---------------- */
+.sidebar {
+  width: 15%;
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 100px;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: #d8d8d8;
+}
+.brand-wrapper {
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.price-wrapper {
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
